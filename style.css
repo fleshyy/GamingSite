@@ -1,0 +1,207 @@
+*{
+  margin:0;
+}
+
+body {
+  background-image: url(https://wallpapershome.com/images/wallpapers/battlefield-5-3840x2160-gamescom-2018-screenshot-4k-20148.jpg);
+  background-size: 100%;
+  color: #12855e;
+}
+.header {
+  padding: 9px 30px;
+  background-color: #092026;
+  font-family: "Anton", sans-serif;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+.header_buttons {
+  margin: auto 0px;
+}
+.header_buttons li {
+  list-style: none;
+  display: inline-block;
+}
+.header_buttons a {
+  text-decoration: none;
+  color: #12855e;
+  padding: 5px 10px;
+  border-right: 1px solid #bbb;
+  background-color: 092026;
+  font-size: 20px;
+}
+
+.mainbody {
+  
+  width: 85%;
+  text-align: center;
+  margin: 30px auto;
+  background-color: rgba(8, 40, 48, 0.9);
+  padding: 20px 10px;
+  border-radius: 2%;
+  max-width: 100%;
+}
+.banner img{
+  width: 100%;
+  border-radius: 2%;
+
+  
+}
+.mainbody_sale_Page {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px auto;
+  max-width: 100%;
+  justify-content: space-between;
+}
+.sale_item {
+  padding: 0.5%;
+  margin: 1%;
+  width: 21%;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 3%; 
+}
+.sale_item_name{
+  font-size: 25px;
+  font-weight: 700;
+  padding:15px 0;
+  width: 70%;
+  margin: 0 auto;
+}
+.sale_item img {
+  width: 200px;
+  height: 200px;
+  border-radius: 3%;
+}
+.pricing{
+  margin: 15px auto;
+  text-align: center;
+  
+  width: 80%;
+  
+}
+.pricing i{
+  padding:0px 10px;
+  text-decoration: none;
+  color: #12855e;
+  
+}
+@media only screen and (max-width: 1100px) {
+  .mainbody {
+    
+    width: 85%;
+    text-align: center;
+    margin: 30px auto;
+    background-color: rgba(8, 40, 48, 0.9);
+    padding: 20px 10px;
+    border-radius: 2%;
+    max-width: 100%;
+  }
+  .mainbody_sale_Page {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 100%;
+  }
+  .sale_item {
+    
+    width: 28%;
+    font-size: 20px;
+  }
+  .sale_item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 3%;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .mainbody {
+    
+    width: 85%;
+    text-align: center;
+    margin: 30px auto;
+    background-color: rgba(8, 40, 48, 0.9);
+    padding: 20px 10px;
+    border-radius: 2%;
+    max-width: 100%;
+  }
+  .mainbody_sale_Page {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 100%;
+  }
+  .sale_item {
+    
+    width: 46%;
+    font-size: 20px;
+  }
+  .sale_item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 3%;
+  }
+
+}
+@media only screen and (max-width: 527px) {
+  .header {
+    padding: 9px 30px;
+    background-color: #092026;
+    font-family: "Anton", sans-serif;
+    font-size: 15px;
+
+    justify-content: space-around;
+    
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .header_buttons {
+    list-style: none;
+  display: inline-block;
+  }
+  .header_buttons li {
+    list-style: none;
+    display: inline-block;
+  }
+  .header_buttons a {
+    text-decoration: none;
+    
+    padding: 5px 10px;
+    border: none;
+    background-color: 092026;
+    font-size: 15px;
+    margin: auto;
+  }
+  .mainbody {
+   
+    width: 85%;
+    text-align: center;
+    margin: 30px auto;
+    background-color: rgba(8, 40, 48, 0.9);
+    padding: 20px 10px;
+    border-radius: 2%;
+    max-width: 100%;
+  }
+  .mainbody_sale_Page {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 100%;
+  }
+  .sale_item {
+    padding: 0.5%;
+    margin: 0.5% auto;
+    width: 80%;
+    font-size: 20px;
+  }
+  .sale_item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 3%;
+  }
+}
